@@ -1,0 +1,171 @@
+/* Layout */
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../images/capa.png),
+                url(../images/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+/* Navbar principal */
+
+nav.navbar-transparente {
+    background: rgba(0,0,0,0.6);
+    padding: 15px 0px;
+}
+
+#navbarPrincipal ul li a {
+    color: white;
+}
+
+#navbarPrincipal ul li a:hover {
+    color: #9bf0e1;
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/* Capa */
+
+.capa {
+    text-align: center;
+}
+
+#capaInicio .btn-custom {
+    color: white;
+    border-radius: 550px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+    margin: 7px 10px;
+}
+
+#capaInicio .btn-roxo {
+    background: #7c25f8;
+}
+
+#capaInicio .btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+#capaInicio .btn-branco {
+    border: 2px solid white;
+}
+
+#capaInicio .btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Tipografia */
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#servicos h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #7c25f8;
+}
+
+#servicos h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04;
+    color: #7c25f8;
+}
+
+#recursos h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+#recursos h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04;
+    color: #9b9b9b;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+/* Conteudo */
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+}
+
+#servicos .albuns {
+    padding: 10px 0px;
+}
+
+#recursos p {
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+/* Slide */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 5%;
+}
